@@ -37,6 +37,7 @@ html {
 
 body {
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
   p {
@@ -98,6 +99,10 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.burger {
+    display: none;
 }
 
 .header_content {
@@ -569,6 +574,7 @@ a:hover {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    height: 915px;
 }
 
 .why_title {
@@ -702,6 +708,7 @@ a:hover {
     border: none;
     margin-top: 60px;
     margin-left: 52px;
+    background-repeat: no-repeat;
 }
 
 .why_bottom {
@@ -709,6 +716,7 @@ a:hover {
     width: 1210px;
     height: 296px;
     color: #fff;
+    margin: 0 auto;
 }
 
 .why_bottom_content {
@@ -805,6 +813,32 @@ a:hover {
 .process_text1, .process_text2, .process_text3, .process_text4, .process_icon1, .process_icon2, .process_icon3, .process_icon4 {
     position: absolute;
     z-index: 2;
+}
+
+.process_icon {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process_icon1, .process_icon2, .process_icon3, .process_icon4 {
+    border: 7px solid #FDBF0F;
+    border-radius: 50%;
+    background: #651FFF content-box;
+    width: 62px;
+    height: 62px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28.13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 
 .process_icon1 {
@@ -1133,9 +1167,10 @@ a:hover {
     margin-bottom: 6px;
 }
 
-.contacts_cards_subtitle_focused {
+.contacts_cards:focus-within label {
     color: rgba(101, 31, 255, 1);
 }
+
 
 .contacts_cards_inp {
     border: none;

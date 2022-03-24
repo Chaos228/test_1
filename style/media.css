@@ -1,0 +1,688 @@
+@media screen and (max-width: 1209px) {
+
+    .content {
+        width: 100vw;
+    }
+    .header_logo {
+        display: none;
+    }
+
+    .header_content {
+        width: 820px;
+    }
+
+    .header_link {
+        margin-right: 20px;
+    }
+
+    .aliexpress_girl {
+        right: 0;
+    }
+
+    .callback {
+        transform: translate(0, -251px);
+    }
+
+    .go-to-aliexpress  {
+        transform: translate(0, 34px);
+        left: 30px;
+    }
+
+    .situation {
+        flex-direction: column;
+    }
+
+    .situation_right {
+        width: 820px;
+    }
+
+    .situation_left {
+        height: 557px;
+    }
+
+    .benefits_target {
+        display: none;
+    }
+
+    .benefits_content {
+        width: 820px;
+    }
+
+    .why_content {
+        width: 820px;
+    }
+
+    .why_shell {
+        flex-direction: column;
+    }
+
+    .why {
+        height: 100%;
+    }
+
+    .why_right {
+        border: none;
+    }
+
+    .why_content {
+        height: 1677px;
+    }
+
+    .why_bottom_shell {
+        flex-direction: column;
+    }
+
+    .why_bottom {
+        height: 406px;
+        padding-left: 30px;
+    }
+    
+    .why_bottom_cards {
+        margin-bottom: 15px;
+    }
+
+    .process {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 665px;
+    }
+    .process_content {
+        display: grid;
+        grid-template-areas:    "title title"
+                                "i1 t1"
+                                "i2 t2"
+                                "i3 t3"
+                                "i4 t4";
+        grid-template-rows: 150px 80px 80px 80px 80px;
+        grid-template-columns: 62px 327px;
+        gap: 20px;
+        position: absolute;
+        left: 0;
+    }
+
+    .process_title {
+        grid-area: title;
+        transform: none;
+        margin: 0;
+    }   
+    
+    .process_icon1 {
+        grid-area: i1;
+        transform: none;
+        height: 62px;
+    }
+
+    .process_icon2 {
+        grid-area: i2;
+        transform: none;
+        height: 62px;
+    }
+    .process_icon3 {
+        grid-area: i3;
+        transform: none;
+        height: 62px;
+    }
+    .process_icon4 {
+        grid-area: i4;
+        transform: none;
+        height: 62px;
+    }
+
+    .process_text1 {
+        grid-area: t1;
+        transform: none;
+        height: 62px;
+        text-align: left;
+    }
+
+    .process_text2 {
+        grid-area: t2;
+        transform: none;
+        height: 62px;
+        text-align: left;
+    }
+    .process_text3 {
+        grid-area: t3;
+        transform: none;
+        height: 62px;
+        text-align: left;
+    }
+    .process_text4 {
+        grid-area: t4;
+        transform: none;
+        height: 62px;
+        text-align: left;
+    }
+
+
+    .process_target {
+        display: none;
+    }
+
+    .achievements {
+        display: none;
+    }
+
+    .start_arrow {
+        display: none;
+    }
+
+    .start_cards {
+        width: 280px;
+    }
+
+    .start {
+        height: 340px;
+    }
+
+    .start_content {
+        height: 340px;
+        padding-left: 30px;
+    }
+
+    .start_shell {
+        display: grid;
+        grid-template-columns: 280px 280px;
+        grid-template-rows: 62px 62px;
+        row-gap: 30px;
+        column-gap: 40px;
+    }
+
+    .start_cards:nth-child(2) {
+        margin: 0;
+    }
+
+    .start_cards:nth-child(4){
+        margin-left: 0;
+    }
+
+
+    .contacts_form {
+        width: 788.95px;
+        padding-left: 68px;
+    }
+
+    .contacts_circle {
+        left: 0;
+    }
+
+    .footer_logo {
+        display: none;
+    }
+
+    .footer_content {
+        width: 820px;
+    }
+
+    .footer_navigation {
+        width: 820px;
+    }
+
+    .footer_link {
+        margin-right: 20px;
+    }
+
+    .footer_licension {
+        display: none;
+    }
+
+    .footer_facebook_icon {
+        margin-right: 59px;
+    }
+
+    .footer_bottom {
+        width: 820PX;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .address_shell, .contacts_shell {
+        margin-right: 40px;
+    }
+
+    .situation_cards {
+        width: 486px;
+    }
+
+    .situation_left_label {
+        transform: translate(-50%, 0);
+    }
+
+    .situation_right_title {
+        margin-left: 0;
+    }
+
+    .target1, .target2 {
+        margin-left: 0;
+    }
+
+    .situation_right_label {
+        left: 0;
+        transform: translate(-50%, 0);
+    }
+
+    .benefits_title {
+        width: 720px;
+        margin-left: 30px;
+    }
+
+    .benefits_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 330px);
+        grid-template-rows: 120px 120px;
+        position: relative;
+        z-index: 2;
+        row-gap: 47px;
+        column-gap: 22px;
+        margin-left: 30px;
+    }
+
+    .benefits_btn {
+        margin-left: 30px;
+    }
+
+    .why_content {
+        width: 718px;
+    }
+
+    .why_bottom {
+        width: 100vw;
+    }
+
+    .why_bottom_content {
+        width: 716px;
+    }
+
+    .contacts {
+        width: 768px;
+        height: 500px;
+        padding: 0;
+    }
+
+    .contacts_form {
+        width: 768px;
+    }
+
+    .footer_content {
+        width: 716px;
+        height: 151px;
+    }
+
+    .footer_top {
+        display: none;
+    }
+
+    .footer_bottom {
+        margin-top: 51px;
+        width: 716px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer_facebook_icon {
+        display: none;
+    }
+
+    .footer {
+        height: 151px;
+    }
+
+    .header_content {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-top: 10px;
+        margin-left: 30px;
+        background: url(../image/svg/hamburger_button_menu_icon_155296.svg);
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width:340px) {
+    .address_shell, .callback_btn  {
+        display: none;
+    }
+
+    .contacts_shell {
+        margin: 0;
+    }
+
+    .callback {
+        right: 30px;
+    }
+
+    .go-to-aliexpress {
+        width: 300px;
+        bottom: 0;
+    }
+
+    .aliexpress_logo {
+        display: none;
+    }
+
+    .aliexpress_mishen {
+        display: none;
+    }
+
+    .aliexpress_girl {
+        transform: translate(100px, 0);
+    }
+
+    .situation_cards {
+        width: 320px;
+    }
+
+    .situation_label {
+        transform: translate(-15px, -15px);
+        top: 30px;
+    }
+
+    .situation_left_image {
+        width: 320px;
+        margin: 0;
+        height: 220px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .situation_left_text {
+        margin: 0;
+        text-align: center;
+    }
+
+    .situation_left_text > br {
+        display: none;
+    }
+
+    .situation_left {
+        height: 381px;
+        margin-bottom: 30px;
+    }
+
+    .situation_right_title {
+        margin-top: 70px;
+    }
+
+    .situation_right_text > br {
+        display: none;
+    }
+
+    .benefits_content {
+        width: 320px;
+    }
+    .benefits_title {
+        width: 320px;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 0;
+    }
+
+    .benefits_title > br {
+        display: none;
+    }
+
+    .benefits_wrapper {
+        display: grid;
+        grid-template-columns: 320px;
+        grid-template-rows: repeat(4, 80px);
+        row-gap: 30px;
+        margin-left: 0;
+    }
+
+    .benefits_cards {
+        font-size: 14px;
+    }
+
+    .benefits_btn {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .why_content {
+        width: 320px;
+        height: 1240px;
+    }
+
+    .why_title {
+        margin-top: 30px;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .why_title > br {
+        display: none;
+    }
+
+    .why_left {
+        width: 320px;
+        height: 480px;
+    }
+
+    .why_left_label {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .why_left_cards {
+        margin: 0;
+    }
+
+    .why_left_cards_pixel {
+        margin-right: 15px;
+    }
+
+    .why_left_img {
+        margin: 0;
+        width: 320px;
+        height: 179px;
+    }
+    
+    .why_right {
+        width: 320px;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+
+    .why_right_label {
+        background-size: 100%;
+        width: 320px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .why_right_wrapper {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 244px;
+        grid-template-rows: repeat(5, 38px);
+        row-gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .why_right_iconPk {
+        margin-left: 0;
+    }
+
+    .why_right_icon_text > br {
+        display: none;
+    }
+
+    .why_right_icon_text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .why_right_btn {
+        margin: 0;
+        margin-top: 30px;
+        width: 320px;
+        background-size: 100%;
+    }
+
+    .why_bottom {
+        height: 100%;
+        padding: 0;
+    }
+
+    .why_bottom_content {
+        width: 320px;
+    }
+
+    .why_bottom_title {
+        font-size: 25px;
+        margin: 30px 0 30px 0;
+    }
+
+    .why_bottom_cards {
+        width: 320px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .why_bottom_cards_circle {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .why_bottom_subtitle {
+        width: 240px;
+        font-size: 16px;
+    }
+
+    .why_bottom_text {
+        width: 240px;
+        font-size: 12px;
+    }
+
+    .why_bottom_text >br {
+        display: none;
+    }
+
+    .why_bottom_cards:first-child {
+        margin: 0;
+    }
+
+    .process {
+        height: 590px;
+    }
+
+    .process_title {
+        font-size: 25px;
+        line-height: 30px;
+        position: static;
+    }
+
+    .process_content {
+        display: grid;
+        grid-template-areas: "title title"
+                                    "i1 t1"
+                                    "i2 t2"
+                                    "i3 t3"
+                                    "i4 t4";
+        grid-template-rows: 120px 80px 80px 80px 80px;
+        grid-template-columns: 62px 233px;
+        gap: 20px;
+        position: absolute;
+        left: 0;
+    }
+
+    .process_text1 > br, .process_text2 > br, .process_text3 > br, .process_text4 > br {
+        display: none;
+    }
+
+    .process_text1, .process_text2, .process_text3, .process_text4 {
+        font-size: 14px;
+        line-height: 18px;
+        width: 233px;
+    }
+
+    .start {
+        height: 480px;
+    }
+    .start_content {
+        height: 470px;
+        width: 320px;
+        padding: 0;
+    }
+
+    .start_title {
+        margin: 30px 0;
+    }
+
+    .start_shell {
+        display: grid;
+        grid-template-columns: 280px;
+        grid-template-rows: repeat(4, 62px);
+        row-gap: 30px;
+        column-gap: 40px;
+    }
+
+    .contacts {
+        height: 716px;
+        width: 375px;
+    }
+
+    .contacts_form {
+        padding: 30px 20px 0 20px;
+        width: 375px;
+        height: 100%;
+    }
+
+    .contacts_circle {
+        top: 0;
+        left: 0;
+    }
+
+    .contacts_title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contacts_input {
+        display: grid;
+        grid-template-columns: 306px;
+        grid-template-rows: repeat(6, 48px);
+        row-gap: 24px;
+    }
+
+    .contacts_confidentiality {
+        flex-direction: column;
+    }
+
+    .contacts_confidentiality_text {
+        margin-bottom: 20px;
+        width: 320px;
+    }
+
+    .footer_adress {
+        display: none;
+    }
+
+    .footer_contacts_mail {
+        display: none;
+    }
+
+    .footer_bottom {
+        width: 320px;
+        flex-direction: column;
+        height: 82px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer_btn {
+        display: block;
+    }
+
+}
