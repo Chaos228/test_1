@@ -8,10 +8,14 @@
     <title>Provodnik</title>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 
 <body>
     <header class="header">
+        <div class="burger">
+            <span></span>
+        </div>
         <div class="header_content">
             <img class="header_logo" src="image/svg/Проводник.svg" alt="">
             <nav class="header_nav">
@@ -223,47 +227,48 @@
                         <button class="why_right_btn btn">Написать нам</button>
                     </div>
                 </div>
-                <div class="why_bottom">
-                    <div class="why_bottom_content">
-                        <h3 class="why_bottom_title">
-                            Кому интересно на AliExpress с Проводником?
-                        </h3>
-                        <div class="why_bottom_shell">
-                            <div class="why_bottom_cards">
-                                <div class="why_bottom_cards_circle">
-                                    <img src="image/svg/dom.svg" alt="">
-                                </div>
-                                <div>
-                                    <h4 class="why_bottom_subtitle">
-                                        Небольшим интернет-магазинам
-                                    </h4>
-                                    <p class="why_bottom_text">
-                                        С ограниченными ресурсами и бюджетом<br>
-                                        на рекламу.
-                                    </p>
-                                </div>
+            </div>
+            <div class="why_bottom">
+                <div class="why_bottom_content">
+                    <h3 class="why_bottom_title">
+                        Кому интересно на AliExpress с Проводником?
+                    </h3>
+                    <div class="why_bottom_shell">
+                        <div class="why_bottom_cards">
+                            <div class="why_bottom_cards_circle">
+                                <img src="image/svg/dom.svg" alt="">
                             </div>
-                            <div class="why_bottom_cards">
-                                <div class="why_bottom_cards_circle">
-                                    <img src="image/svg/zavodik.svg" alt="">
-                                </div>
-                                <div>
-                                    <h4 class="why_bottom_subtitle">
-                                        Небольшим производителям
-                                    </h4>
-                                    <p class="why_bottom_text">
-                                        Готовы поставлять товар реселлеру и не хотят<br>
-                                        заниматься продвижением товаров конечному<br>
-                                        покупателю.
-                                    </p>
-                                </div>
+                            <div>
+                                <h4 class="why_bottom_subtitle">
+                                    Небольшим интернет-магазинам
+                                </h4>
+                                <p class="why_bottom_text">
+                                    С ограниченными ресурсами и бюджетом<br>
+                                    на рекламу.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="why_bottom_cards">
+                            <div class="why_bottom_cards_circle">
+                                <img src="image/svg/zavodik.svg" alt="">
+                            </div>
+                            <div>
+                                <h4 class="why_bottom_subtitle">
+                                    Небольшим производителям
+                                </h4>
+                                <p class="why_bottom_text">
+                                    Готовы поставлять товар реселлеру и не хотят<br>
+                                    заниматься продвижением товаров конечному<br>
+                                    покупателю.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
         </section>
         <section class="process">
-            <div class="content">
+            <div class="content process_content">
                 <img class="process_target" src="image/chels misheniu.png" alt="">
                 <h2 class="process_title">Как организован процесс?</h2>
                 <div class="process_text1">Проводник ищет магазины <br>
@@ -282,10 +287,26 @@
                     применить для вашей раскрутки<br>
                     на маркетплейсе.
                 </div>
-                <img src="image/svg/chislo.svg" alt="" class="process_icon1">
-                <img src="image/svg/chislo (1).svg" alt="" class="process_icon2">
-                <img src="image/svg/chislo (2).svg" alt="" class="process_icon3">
-                <img src="image/svg/chislo (3).svg" alt="" class="process_icon4">
+                <div class="process_icon1">
+                    <div class="process_icon">
+                        1
+                    </div>
+                </div>
+                <div class="process_icon2">
+                    <div class="process_icon">
+                        2
+                    </div>
+                </div>
+                <div class="process_icon3">
+                    <div class="process_icon">
+                        3
+                    </div>
+                </div>
+                <div class="process_icon4">
+                    <div class="process_icon">
+                        4
+                    </div>
+                </div>
             </div>
         </section>
         <section class="achievements">
@@ -392,43 +413,33 @@
                         </h2>
                         <div class="contacts_input">
                             <div class="contacts_cards">
-                                <p class="contacts_cards_subtitle">
-                                    Имя
-                                </p>
-                                <input class="contacts_cards_inp" type="text" placeholder="Как к вам обращаться">
+                                <label class="contacts_cards_subtitle" for="name">Имя</label>
+                                <input class="contacts_cards_inp" id="name" type="text"
+                                    placeholder="Как к вам обращаться">
                             </div>
                             <div class="contacts_cards">
-                                <p class="contacts_cards_subtitle">
-                                    Кто вы
-                                </p>
-                                <select class="contacts_cards_inp" name="select">
+                                <label class="contacts_cards_subtitle" for="select">Кто вы</label>
+                                <select class="contacts_cards_inp" id="select">
                                     <option value="">Выберите род деятельности</option>
                                     <option value="">Верстальщик</option>
                                 </select>
                             </div>
                             <div class="contacts_cards">
-                                <p class="contacts_cards_subtitle">
-                                    Телефон
-                                </p>
-                                <input class="contacts_cards_inp" type="text" placeholder="+7 (123) 12-12-123">
+                                <label class="contacts_cards_subtitle" for="phone">Телефон</label>
+                                <input class="contacts_cards_inp" id="phone" type="text"
+                                    placeholder="+7 (123) 12-12-123">
                             </div>
                             <div class="contacts_cards">
-                                <p class="contacts_cards_subtitle">
-                                    Домен (если есть)
-                                </p>
-                                <input class="contacts_cards_inp" type="text">
+                                <label class="contacts_cards_subtitle" for="domen">Домен (если есть)</label>
+                                <input class="contacts_cards_inp" id="domen" type="text">
                             </div>
                             <div class="contacts_cards">
-                                <p class="contacts_cards_subtitle">
-                                    Е-mail
-                                </p>
-                                <input class="contacts_cards_inp" type="text" placeholder="Нужен для связи">
+                                <label class="contacts_cards_subtitle" for="mail">Е-mail</label>
+                                <input class="contacts_cards_inp" id="mail" type="text" placeholder="Нужен для связи">
                             </div>
                             <div class="contacts_cards">
-                                <p class="contacts_cards_subtitle contacts_cards_subtitle_focused">
-                                    Focused state
-                                </p>
-                                <input class="contacts_cards_inp" type="text" placeholder="Input caption">
+                                <label class="contacts_cards_subtitle" for="Focused">Focused state</label>
+                                <input class="contacts_cards_inp" id="Focused" type="text" placeholder="Input caption">
                             </div>
                         </div>
                         <div class="contacts_confidentiality">
@@ -472,7 +483,7 @@
                 <div class="footer_adress">
                     <img src="image/svg/location (1).svg" alt="" class="footer_adress_icon">
                     <p class="footer_adress_text">
-                        г. Москва, ул. Улица, 20 с. 1 
+                        г. Москва, ул. Улица, 20 с. 1
                     </p>
                 </div>
                 <div class="footer_contacts">
@@ -487,6 +498,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
